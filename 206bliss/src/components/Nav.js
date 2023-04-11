@@ -10,9 +10,11 @@ const Nav = () =>{
                 <li a href='Home'>Home</li>
                 <li a href='Services'>Services</li>
                 <li a href='blogAndPodcast'>Blog and Podcast</li>
-                
+
 
             </ul>
         </div>
     )
 }
+
+export default Nav
