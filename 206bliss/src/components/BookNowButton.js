@@ -1,7 +1,4 @@
-const BookNowButton = () =>{
-    function book (
-        document.getElementbyID('book');
-    );
+const BookNowButton = () =>{        
     return(
         <div id='button'>
             <button onclick='book'>Book A Trip Now!</button>
