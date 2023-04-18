@@ -23,7 +23,7 @@ function MyCalendar(props) {
     <div style={{ height: '500pt' }}>
       <Calendar
         localizer={localizer}
-        events={events}
+        Events={Events}
         startAccessor="start"
         endAccessor="end"
         selectable={true}

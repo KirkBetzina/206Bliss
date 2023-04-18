@@ -1,15 +1,15 @@
 import './App.css';
 import Nav from './components/Nav';
 import Form from './pages/Form';
-import MyCalendar from './Calendar';
-import events from './events';
+import Calendar from './Calendar';
+import Events from './Events';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Form />
-      <MyCalendar events={events} />
+      <Calendar Events={Events} />
     </div>
   );
 }
