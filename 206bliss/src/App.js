@@ -5,10 +5,13 @@ import Calendar from './Calendar';
 import Events from './Events';
 
 function App() {
+  const handleSubmit = (formData) => {
+    console.log(formData); // or submit the form data to a server
+  };
   return (
     <div className="App">
       <Nav />
-      <Form />
+      <BookingForm onSubmit={handleSubmit} />
       <Calendar Events={Events} />
     </div>
   );
