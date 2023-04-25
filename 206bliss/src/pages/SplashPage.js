@@ -17,8 +17,8 @@ const SplashPage = () => {
     return (
       // Display the splash page
       <div>
-        <h1>Welcome to the Travel Agency!</h1>
-        <p>Experience the world with us.</p>
+        <h1>Welcome to 206Bliss</h1>
+        <p>Experience the world</p>
       </div>
     );
   } else {
