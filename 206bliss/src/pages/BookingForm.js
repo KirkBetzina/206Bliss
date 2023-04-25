@@ -6,6 +6,7 @@ function BookingForm(props) {
   const [destination, setDestination] = useState('');
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
+  const [budget, setBudget] = useState('');
   const [numberOfPeople, setNumberOfPeople] = useState('');
 
   const handleSubmit = (event) => {
@@ -16,6 +17,7 @@ function BookingForm(props) {
       destination: destination,
       startDate: startDate,
       endDate: endDate,
+      budget: budget,
       numberOfPeople: numberOfPeople,
     };
     props.onSubmit(formData);
@@ -61,6 +63,14 @@ function BookingForm(props) {
           type="date"
           value={endDate}
           onChange={(event) => setEndDate(event.target.value)}
+        />
+      </label>
+      <label>
+        Budget for the Trip:
+        <input
+          type="number"
+          value={Budget}
+          onChange={(event) => setBudget(event.target.value)}
         />
       </label>
       <label>
