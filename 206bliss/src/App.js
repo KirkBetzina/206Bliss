@@ -1,8 +1,8 @@
 import './App.css';
 import Nav from './components/Nav';
-import Form from './pages/Form';
-import Calendar from './Calendar';
-import Events from './Events';
+import BookingForm from './pages/BookingForm';
+import MyCalendar from './components/MyCalendar';
+import Events from './components/Events';
 
 function App() {
   const handleSubmit = (formData) => {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Nav />
       <BookingForm onSubmit={handleSubmit} />
-      <Calendar Events={Events} />
+      <MyCalendar Events={Events} />
     </div>
   );
 }

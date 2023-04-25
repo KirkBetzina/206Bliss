@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-import { InlineWidget } from '@calendly/javascript';
+
 
 
 const localizer = momentLocalizer(moment);
@@ -23,7 +23,7 @@ function MyCalendar(props) {
     <div style={{ height: '500pt' }}>
       <Calendar
         localizer={localizer}
-        Events={Events}
+        events={events}
         startAccessor="start"
         endAccessor="end"
         selectable={true}
