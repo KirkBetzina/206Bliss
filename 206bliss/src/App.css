@@ -2,18 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +32,33 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+/* /////////////////////////////////////COLORS////////////////////////////////////////////////////////
+SUNSET PALLETS //////////////////////////////////////////
+#FBC867 - GOLDISH                   #FBC284 - BUTTERSCOTCH
+#FCA994 - SALMON                    #BA541E - BURNT SIENNA
+#250B06 - SEPIA BROWN               #E3859B - BUBBLEGUM
+#C25D61 - WATERMELLON TAFFY         #350E14 - OXBLOOD
+#ED760B - ORANGE                    #853B6B - MAGENTA
+
+SUNRISE PALLET///////////////////////////////////////////
+#FDBB63 - GOLDEN SUN
+#FDA26B - SKIN TONE PINK
+#FC8862 - CORAL
+#EB6859 - SALMON
+#FC7174 - PINK
+*/
+
+/* 
+//////////////////////////////////////STYLE GUIDE FOR WHOLE APP LAYOUT////////////////////////
+SMALL WHITE BAR WITH NAV ICON AND BUSINESS LOGO
+TROPICAL SUNRISE IMAGE WITH SOME TEXT OVER IT
+SECTION FOR ABOUT ME SOLID WHITE BAR WITH INFO INSIDE
+PARALAX SROLLING OVER A BACKGROUND OF SOME GORGEOUS BEACH
+EMPTY SLOT TO SEE THE BACK GROUND
+SOLID WHITE BAR FOR A NEW SECTION BOOK A TRIP 
+REPEAT 1ST 4 STEPS FOR EACH SECTION UNTIL ALL SECTIONS ARE PRESENT INCLUDING A SOLID BAR AT THE BOTTOM
+BUSINESS CONTACT, ADDRESS, LEGAL INFO, AND LINKS TO SECTIONS. 
+*/
