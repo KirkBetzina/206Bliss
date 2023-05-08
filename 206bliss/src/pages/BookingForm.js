@@ -69,7 +69,7 @@ function BookingForm(props) {
         Budget for the Trip:
         <input
           type="number"
-          value={Budget}
+          value={budget}
           onChange={(event) => setBudget(event.target.value)}
         />
       </label>
